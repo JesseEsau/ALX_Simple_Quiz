@@ -16,7 +16,7 @@ function checkAnswer() {
     // compare user's answer with correct answer
     const feedback = document.getElementById("feedback");
     if (userAnswer === correctAnswer) {
-        feedback.textContent = "Correct! well done.";
+        feedback.textContent = "Correct! Well done.";
         feedback.style.color = "#28a745" // green
     } else {
         feedback.textContent = "That's incorrect. Try again!"
